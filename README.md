@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex URL matching
 
-Introductory paragraph (replace this with your text)
+As a web development student I want a tutorial explaining a specific regex, so that I can understand the search pattern the regex defines.
 
 ## Summary
 
@@ -20,14 +20,17 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+The Anchors are always at the begining and end of the string. For the example above, ^ is the symbol for the begining and $ is for the end.
 
 ### Quantifiers
+Quantifiers communicate to the regex engine that it MUST match the Quanity of the character or expression to its LEFT. There are two types of Quantifiers; Greedy and Lazy, each type has the same description.
 
 ### Grouping Constructs
 
 ### Bracket Expressions
 
 ### Character Classes
+Character Classes ensure that a given sequence of characters matches a Larger set of characters.
 
 ### The OR Operator
 
